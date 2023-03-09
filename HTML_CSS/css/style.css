@@ -1,0 +1,107 @@
+nav li {list-style-type: none;}
+footer li {list-style-type: none;}
+a { color: black;}
+body {
+    background-image: url("fond.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    flex: 1 ;
+}
+#article1 ul li {
+    list-style-image: url("star.png");
+   }
+#article4 ul li{
+list-style-type: none;
+}
+#article4 {
+    background-color: rgb(221, 177, 177);
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+#article1 {
+    margin-left: 10px;
+}
+#article2 {
+    margin-left: 50px;
+}
+#article5 {
+    background-color: rgb(221, 177, 177);
+    text-align: center;
+}
+#article1et2et4 {
+    display: flex;}
+#article1 , #article2 , #article4{
+    flex: 1;
+}
+#article3et5 {
+    display: flex;}
+#article3 , #article5 {
+    flex: 1;
+}
+footer ul {
+    display: flex;
+}
+footer ul li {
+    flex: 1 ;
+}
+nav ul li {
+    background-color: rgb(224, 217, 217);
+    padding: 10px;
+    border: 2px solid rgb(218, 190, 190);
+    text-align: center;
+}
+nav {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+header {
+    background-image: url("../img/head.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    text-align: center;
+}
+header h1, header p {
+    color: solid black;
+}
+
+#article3 {
+    text-align: center;
+    margin-left: 271px;
+    margin-right: 271px;
+}
+table {
+    display: inline-block;
+    text-align: center;
+}
+footer ul li a {
+    text-decoration: none;
+}
+#article1 h2{
+    color: brown;
+}
+#article2 h2 {
+    color: brown;
+}
+#article3 h2 {
+    color: brown;
+}
+footer h2{
+    color: brown;
+    text-align: center;
+}
+#article4 h2, #article5 h2 {
+    color: brown;
+}
+footer {
+    background-color: rgb(221, 177, 177);
+}
